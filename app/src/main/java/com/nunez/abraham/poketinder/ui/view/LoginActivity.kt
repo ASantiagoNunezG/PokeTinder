@@ -1,9 +1,10 @@
-package com.nunez.abraham.poketinder
+package com.nunez.abraham.poketinder.ui.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.widget.Toast
+import com.nunez.abraham.poketinder.ui.viewmodel.LoginViewModel
 import com.nunez.abraham.poketinder.databinding.ActivityLoginBinding
 
 

@@ -1,8 +1,9 @@
-package com.nunez.abraham.poketinder
+package com.nunez.abraham.poketinder.ui.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.nunez.abraham.poketinder.data.database.SharedPreferencesRepository
 
 class RegisterViewModel (
     val context: Context

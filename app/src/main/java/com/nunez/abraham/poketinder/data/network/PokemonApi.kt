@@ -1,5 +1,6 @@
-package com.nunez.abraham.poketinder
+package com.nunez.abraham.poketinder.data.network
 
+import com.nunez.abraham.poketinder.data.model.PokemonListResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

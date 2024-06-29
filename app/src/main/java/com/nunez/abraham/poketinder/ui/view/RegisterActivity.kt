@@ -1,12 +1,12 @@
-package com.nunez.abraham.poketinder
+package com.nunez.abraham.poketinder.ui.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.nunez.abraham.poketinder.ui.viewmodel.RegisterViewModel
 import com.nunez.abraham.poketinder.databinding.ActivityRegisterBinding
-import kotlin.math.log
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -54,7 +54,7 @@ class RegisterActivity : AppCompatActivity() {
 
         //Con esto inicializando el Login, bueno la navegación, al presionar el botón
         binding.btnLoginF.setOnClickListener{
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

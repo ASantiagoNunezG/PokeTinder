@@ -1,4 +1,4 @@
-package com.nunez.abraham.poketinder
+package com.nunez.abraham.poketinder.ui.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -35,7 +35,7 @@ class SplashActivity : AppCompatActivity() {
     }
     //Configurando para que el activity que inicialice tras el splashActivity sea el LoginActivity
     private fun goLoginActivity(){
-        val intent = Intent(this,LoginActivity::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish()
     }

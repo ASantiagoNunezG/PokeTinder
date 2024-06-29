@@ -1,10 +1,11 @@
-package com.nunez.abraham.poketinder
+package com.nunez.abraham.poketinder.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.nunez.abraham.poketinder.data.model.PokemonResponse
 import com.nunez.abraham.poketinder.databinding.ItemPokemonBinding
 
 class PokemonAdapter (var list: List<PokemonResponse>): RecyclerView.Adapter<PokemonAdapter.ViewHolder>(){
@@ -32,5 +33,6 @@ class PokemonAdapter (var list: List<PokemonResponse>): RecyclerView.Adapter<Pok
         holder.bind(itemPokemon)
 
     }
+
 
 }
